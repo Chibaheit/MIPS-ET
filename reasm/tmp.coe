@@ -1,0 +1,11 @@
+memory_initialization_radix=16;
+memory_initialization_vector=
+00 00 00 20,
+00 00 00 20,
+00 00 00 20,
+00 00 00 20,
+00 00 00 20,
+00 00 00 20,
+00 00 00 20,
+00 01 00 27,
+08 00 04 07;

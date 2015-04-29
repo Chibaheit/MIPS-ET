@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Ubuntu-R.ttf) format("truetype");
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Ubuntu", "Monaco", "WenQuanYi Micro Hei", "Microsoft YaHei";
+}
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+h1 {
+  font-size: 800%;
+}
+
+h2 {
+  font-size: 400%;
+}
+
+h3 {
+  font-size: 300%;
+}
+
+h4 {
+  font-size: 200%;
+}
+
+#menu li {
+	display:inline-block;
+	margin: 0px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+  float: left;
+  width: 50%;
+}
+
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+
+#menu li.active a:hover{
+	color: #000;
+}
+
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+
+#menu li.active a{
+	color: #fff;
+}
+
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#asm-holder, #reasm-holder { 
+  border: 10px dashed #ccc; 
+  width: 300px; 
+  min-height: 300px; 
+  margin: 20px auto;
+}
+
+#asm-holder.hover, #reasm-holder.hover {
+  border: 10px dashed #0c0; 
+}
+
+#asm-holder p, #reasm-holder p { 
+  margin: 10px; 
+  font-size: 14px; 
+}
+
+#about-background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: url("../img/about.jpg") left top;
+  background-size: 675px, 600px, auto;
+}

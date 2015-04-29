@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atom &amp; Electron</title>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bower_components/fullpage/jquery.fullPage.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <script src="./bower_components/coffee-script/extras/coffee-script.js"></script>
+    <script type="text/javascript">
+      if (typeof(require) != 'undefined') {
+        window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.js');
+      }
+    </script>
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./bower_components/fullpage/vendors/jquery.easings.min.js"></script>
+    <script src="./bower_components/fullpage/vendors/jquery.slimscroll.min.js"></script>
+    <script src="./bower_components/fullpage/jquery.fullPage.js"></script>
+    <script src="./bower_components/socket.io-client/socket.io.js"></script>
+    <script src="./assets/js/about.coffee" type="text/coffeescript"></script>
+  </head>
+  <body id="about-background">
+    <div class="container">
+      <div class="col-sm-12">
+        <div><h4>Author / Developer: <a id="about-twitter" href="#">@Chiba</a></h4></div>
+        <div><h4>Project source available on <a id="about-github" href="#">Github</a></h4></div>
+        <div><h4>Copyright &copy; 2015 Chiba</h4></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "MIPS",
+  "version": "0.0.1",
+  "description": "Apr.28 MIPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Reasm",
+    "MIPS",
+    "Asm",
+    "Atom-Shell",
+    "Electron"
+  ],
+  "author": "Chiba",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "coffee-script": "^1.9.2",
+    "express": "^4.12.3",
+    "socket.io": "^1.3.5"    
+  }
+}
